@@ -1,9 +1,15 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+h2 {
+  margin-bottom: 4rem;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
 }
 
@@ -13,9 +19,41 @@
   }
 }
 
+p, a {
+  font-size: small;
+}
+
+a {
+  margin-top: 0rem;
+  color: rgb(31, 152, 222);
+}
+
+.LoginButton, .LogoutButton, .CreateAccountButton {
+  border-radius: 0.5rem;
+  background-color: grey;
+  color: white;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+  cursor: pointer;
+}
+
+.LoginButton:hover, .CreateAccountButton:hover {
+  background-color: green;
+}
+
+.LogoutButton:hover {
+  background-color: red;
+}
+
+.Login {
+  margin-top: 4rem;
+}
+
+.Login, .Password, .ConfirmPassword {
+  margin-bottom: 0.5rem;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +62,11 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
