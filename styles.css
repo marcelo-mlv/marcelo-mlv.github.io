@@ -1,0 +1,64 @@
+body {
+    background-image: url('https://wiki.teamfortress.com/w/images/3/3f/Clubsy_The_Seal.png');
+    background-size: cover;
+}
+
+.img {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.ans {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+ol li {
+    font-family: Consolas;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin: 30px 32% 0;
+}
+
+.wavegen {
+    background-color: rgb(118, 57, 193);
+    margin: 50px 38%;
+    padding: 30px 0;
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+}
+
+.wave-title {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #a1a1a1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 15px;
+}
